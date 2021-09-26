@@ -6,7 +6,7 @@ import './Team.css';
 
 const Team = (props) => {
     const {name, id, age, skill, position, salary, country, picture, experience} = props.programmer || {};
-console.log(props.programmer)
+
 // FontAwesome icon area
     const shopingCart = <FontAwesomeIcon icon={faShoppingCart} />
     const facebookIcon = <FontAwesomeIcon icon={faFacebook} />
@@ -26,7 +26,7 @@ console.log(props.programmer)
             <button onClick={() => props.cartHandler(props.programmer)} className="border rounded button-style mt-3">{shopingCart} Add To Cart</button>
 
             {/*  Social icon area */}
-            <h4 className="pt-3 social-icon "><span>{facebookIcon}</span> <span className="mx-2">{instagramIcon}</span>  <span>{twitterIcon}</span> </h4>
+            <h4 className="pt-3 social-icon "><span>{facebookIcon}</span>  <span className="mx-2">{instagramIcon}</span>  <span>{twitterIcon}</span> </h4>
         </div>
     );
 };

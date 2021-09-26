@@ -5,11 +5,9 @@ import './Cart.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 const Cart = (props) => {
-const{programmerInfos} = props ||{};
+const{programmerInfos} = props || {};
 
 const user = <FontAwesomeIcon icon={faUser} />
-
-
 
     let total = 0;
     for(const programmerInfo of programmerInfos){
@@ -23,12 +21,12 @@ const user = <FontAwesomeIcon icon={faUser} />
             <br />
             <ul className="list-style">
                 {
-                    programmerInfos.map(programmerInfo => <li ><div className="d-flex align-items-center p-3">
-                    <img className="w-25 rounded-circle me-3" src={programmerInfo.picture} alt="" />
-                    <h4>{programmerInfo.name}</h4>
-                </div></li> )
-                }
-                    
+                    programmerInfos.map(programmerInfo => <li >
+                        <div className="d-flex align-items-center p-3">
+                            <img className="w-25 rounded-circle me-3" src={programmerInfo.picture} alt="" />
+                            <h4>{programmerInfo.name}</h4>
+                        </div></li> )
+                }     
             </ul>
             <br />
             <div className=" col-4 mx-auto ">

@@ -19,7 +19,6 @@ const Main = () => {
     const cartHandler = (programmerInfo) => {
         const newProgrammerInfo = [...programmerInfos, programmerInfo]
         setProgrammersInfos(newProgrammerInfo);
-        console.log(programmerInfos)
     };
 
     return (

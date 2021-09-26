@@ -1,0 +1,14 @@
+.programmer-info{
+    text-align: center;
+    width: 31%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.pro-img{
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border: 5px solid lightblue;
+}

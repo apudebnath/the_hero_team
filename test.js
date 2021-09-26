@@ -1,0 +1,200 @@
+const programmer=[
+    {
+        id: 10131195,
+        name: 'Joshef Jon',
+        age: 27,
+        skill: 'Javascript, C++',
+        position: 'FrontEnd Developer',
+        salary: 355000,
+        experience: '7 years',
+        country: 'Canada',
+        picture: 'https://i.ibb.co/d5NyjHf/pic01.png'
+    },
+    {
+        id: 101356465,
+        name: 'Christian Elijah',
+        age: 26,
+        skill: 'Javascript, React, php',
+        position: 'FullStack Developer',
+        salary: 385000,
+        experience: '8 years',
+        country: 'Canada',
+        picture: 'https://i.ibb.co/J5qcfhG/pic02.png'
+    },
+    {
+        id: 101619553,
+        name: 'Gerald Frances',
+        age: 23,
+        skill: 'Javascript, C++, Python',
+        position: 'Developer',
+        salary: 285000,
+        experience: '6 years',
+        country: 'France',
+        picture: 'https://i.ibb.co/HD223JL/pic03.png'
+    },
+    {
+        id: 101318518,
+        name: 'Douglas Judith',
+        age: 31,
+        skill: 'Javascript, SQL',
+        position: 'FrontEnd Developer',
+        salary: 255000,
+        experience: '8 years',
+        country: 'Belarush',
+        picture: 'https://i.ibb.co/8bdbGH1/pic04.png'
+    },
+    {
+        id: 101313256,
+        name: 'Benjamin Janet',
+        age: 25,
+        skill: 'Php, Java',
+        position: 'Developer',
+        salary: 165000,
+        experience: '5 years',
+        country: 'Canada',
+        picture: 'https://i.ibb.co/fYkM8YK/pic05.png'
+    },
+    {
+        id: 101344989,
+        name: 'Melissa Eric',
+        age: 24,
+        skill: 'Javascript, C++',
+        position: 'FrontEnd Developer',
+        salary: 255000,
+        experience: '5 years',
+        country: 'Korea',
+        picture: 'https://i.ibb.co/34DmqW2/pic06.png'
+    },
+    {
+        id: 101165494,
+        name: 'Kenneth Jon',
+        age: 28,
+        skill: 'Javascript, php',
+        position: 'fullStack Developer',
+        salary: 275000,
+        experience: '9 years',
+        country: 'Island',
+        picture: 'https://i.ibb.co/4dM7gcG/pic07.png'
+    },
+    {
+        id: 101986588,
+        name: 'Charles Karen',
+        age: 23,
+        skill: 'Javascript, Php, iOS/Swift.',
+        position: 'BackEnd Developer',
+        salary: 265000,
+        experience: '4 years',
+        country: 'USA',
+        picture: 'https://i.ibb.co/8KWv5F7/pic08.png'
+    },
+    {
+        id: 104679821,
+        name: 'Matthew Betty',
+        age: 18,
+        skill: 'Javascript',
+        position: 'FrontEnd Developer',
+        salary: 175000,
+        experience: '3 years',
+        country: 'Cuba',
+        picture: 'https://i.ibb.co/W6jT3wp/pic09.png'
+    },
+    {
+        id: 109665911,
+        name: 'Jennifer Lee',
+        age: 24,
+        skill: 'Python, C++',
+        position: 'BackEnd Developer',
+        salary: 285000,
+        experience: '5 years',
+        country: 'Japan',
+        picture: 'https://i.ibb.co/1qSfMg3/pic10.png'
+    },
+    {
+        id: 101965896,
+        name: 'Richard Joseph',
+        age: 27,
+        skill: 'Javascript, React',
+        position: 'FrontEnd Developer',
+        salary: 155000,
+        experience: '6 years',
+        country: 'Finland',
+        picture: 'https://i.ibb.co/r4DZHVq/pic11.png'
+    },
+    {
+        id: 101588862,
+        name: 'William Benn',
+        age: 19,
+        skill: 'RubY',
+        position: 'Developer',
+        salary: 245000,
+        experience: '2 years',
+        country: 'Maxico',
+        picture: 'https://i.ibb.co/ZVPFyHq/pic12.png'
+    },
+    {
+        id: 101585962,
+        name: 'Tommaya Driae',
+        age: 20,
+        skill: 'Javascript',
+        position: 'FrontEnd Developer',
+        salary: 195000,
+        experience: '4 years',
+        country: 'Briten',
+        picture: 'https://i.ibb.co/YLWrcsK/pic13.png'
+    },
+    {
+        id: 1012889699,
+        name: 'Roobert keen',
+        age: 23,
+        skill: 'Javascript, C++',
+        position: 'FrontEnd Developer',
+        salary: 275000,
+        experience: '6 years',
+        country: 'Canada',
+        picture: 'https://i.ibb.co/CBxSx10/pic14.jpg'
+    },
+    {
+        id: 101187749,
+        name: 'Moree Stuff',
+        age: 28,
+        skill: 'Javascript, Python',
+        position: 'FrontEnd Developer',
+        salary: 165000,
+        experience: '7 years',
+        country: 'USA',
+        picture: 'https://i.ibb.co/TwSk0Jh/pic15.png'
+    },
+    {
+        id: 101999856,
+        name: 'Gorgee Saii',
+        age: 16,
+        skill: 'C++',
+        position: 'Developer',
+        salary: 275000,
+        experience: '2 years',
+        country: 'Swiden',
+        picture: 'https://i.ibb.co/HBXdnKS/pic16.png'
+    },
+    {
+        id: 101666532,
+        name: 'Miean Jovan',
+        age: 19,
+        skill: 'Javascript',
+        position: 'FrontEnd Developer',
+        salary: 285000,
+        experience: '4 years',
+        country: 'Italy',
+        picture: 'https://i.ibb.co/zFB0zn2/pic17.jpg'
+    },
+    {
+        id: 101112563,
+        name: 'Kirishi Nuan',
+        age: 23,
+        skill: 'Java, Python',
+        position: 'BackEnd Developer',
+        salary: 395000,
+        experience: '5 years',
+        country: 'USA',
+        picture: 'https://i.ibb.co/4Y5dQjt/pic18.png'
+    }
+]

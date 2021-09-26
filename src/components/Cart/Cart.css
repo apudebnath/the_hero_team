@@ -1,0 +1,7 @@
+.cart-container{
+    background-color: rgba(211, 211, 211, 0.514);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 40px 20px;
+    color: white;
+}

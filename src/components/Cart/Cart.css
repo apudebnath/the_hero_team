@@ -1,7 +1,20 @@
 .cart-container{
-    background-color: rgba(211, 211, 211, 0.514);
+    background-color: rgba(211, 211, 211, 0.301);
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 40px 20px;
     color: white;
+}
+/* Buy now Button */
+.by-button{
+    background-color: rgb(199, 17, 93);
+    color: whitesmoke;
+    padding: 5px 15px;
+}
+.by-button:hover{
+    background-color: rgb(241, 235, 238);
+    color: rgb(199, 17, 93);
+}
+.list-style li{
+    list-style-type:none;
 }

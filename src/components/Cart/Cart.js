@@ -1,29 +1,38 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faUser} from '@fortawesome/free-solid-svg-icons'
 import './Cart.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 const Cart = (props) => {
-const{programmerInfos} = props;
-    console.log(props.programmerInfos);
-    let name = '';
-    let picture = '';
+const{programmerInfos} = props ||{};
+
+const user = <FontAwesomeIcon icon={faUser} />
+
+
+
     let total = 0;
-    
     for(const programmerInfo of programmerInfos){
-        name = programmerInfo.name
-        picture = programmerInfo.picture;
         total = total + programmerInfo.salary;
-        console.log(programmerInfo.salary);
-        console.log(total);
     }
-    //const totalCost = total + parseInt(phone);
+
     return (
         <div className="cart-container">
-            <h4>Programmer added: {props.programmerInfos.length}</h4>
-            <h5>Total cost: {total}</h5>
+            <h4>{user} Programmer added: {props.programmerInfos.length}</h4>
+            <h5 className="pt-3">Total cost: {total} $</h5>
             <br />
-            <div className="d-flex align-items-center">
-                <img className="w-25 rounded-circle me-3" src={picture} alt="" />
-                <h4>{name}</h4>
+            <ul className="list-style">
+                {
+                    programmerInfos.map(programmerInfo => <li ><div className="d-flex align-items-center p-3">
+                    <img className="w-25 rounded-circle me-3" src={programmerInfo.picture} alt="" />
+                    <h4>{programmerInfo.name}</h4>
+                </div></li> )
+                }
+                    
+            </ul>
+            <br />
+            <div className=" col-4 mx-auto ">
+                <button className="border rounded px-3 py-1 by-button">By Now</button>
             </div>
         </div>
     );
